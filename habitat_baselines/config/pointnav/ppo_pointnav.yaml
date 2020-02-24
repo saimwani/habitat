@@ -2,7 +2,7 @@ BASE_TASK_CONFIG_PATH: "configs/tasks/pointnav_mp3d.yaml"
 TRAINER_NAME: "ppo"
 ENV_NAME: "NavRLEnv"
 SIMULATOR_GPU_ID: 0
-TORCH_GPU_ID: 1
+TORCH_GPU_ID: 0
 VIDEO_OPTION: ["disk", "tensorboard"]
 TENSORBOARD_DIR: "tb_train_blind_map_40000_4"
 VIDEO_DIR: "video_dir"
